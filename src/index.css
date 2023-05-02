@@ -1,13 +1,206 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: hsl(210, 46%, 95%);
+  font-family: 'Manrope', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.row {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 30px 44px -4px rgba(211, 224, 227, 1);
+}
+
+
+@media (max-width: 767px) {
+  h6 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 18px;
+    padding-bottom: 15px;
+  }
+
+  img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  .options {
+    position: absolute;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    top: -25%;
+    left: -11.5%;
+    width: 123%;
+    height: 105px;
+    background-color: hsl(217, 19%, 35%);
+  }
+
+.space{
+  padding: 22px;
+}
+  .boton {
+    position: absolute;
+    z-index: 100;
+    left: 85%;
+  }
+
+  .article {
+    padding: 50px;
+    padding-bottom: 40px;
+  }
+
+  .card {
+    padding-top: 11px;
+  }
+
+  .share{
+    background-color:  hsl(212, 23%, 69%);
+  }
+}
+
+@media (min-width: 768px) {
+  h6 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .options {
+    position: absolute;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    top: -170%;
+    left: 72%;
+    width: 50%;
+    height: 60px;
+    background-color: hsl(217, 19%, 35%);
+    box-shadow: 0px 12px 25px -4px rgba(211, 224, 227, 1);
+  }
+
+  .triangulo-2 {
+    position: absolute;
+    top: 100%;
+    left: 44%;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 13px solid hsl(217, 19%, 35%);
+  }
+  .boton{
+    fill:hsl(214, 17%, 51%);
+  }
+
+  .article {
+    padding: 50px;
+    border-radius: 10px;
+  }
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.picture {
+  padding: 0px;
+  overflow: hidden;
+}
+
+.article {
+  background-color: white;
+}
+
+h6 {
+  color: hsl(217, 19%, 35%);
+  line-height: 1.8;
+  font-weight: 800;
+  text-align:left;
+}
+
+p {
+  color: hsl(214, 17%, 51%);
+  line-height: 1.7;
+}
+
+.boton {
+  width: 50px;
+  height: 50px;
+}
+
+.card {
+  width: 100%;
+  height: 50px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.photo {
+  border-radius: 100%;
+  width: 60px;
+  height: 95%;
+  background-size: cover;
+  background-image: url("./avatar-michelle.jpg");
+}
+
+.user {
+  width: 70%;
+  height: 60px;
+  display: flex;
+}
+
+.name {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.share {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 100%;
+  background-color: hsl(210, 46%, 95%);
+}
+
+.shared:active {
+  fill: hsl(210, 46%, 95%);
+}
+
+.date {
+  color: hsl(212, 23%, 69%);
+}
+
+.options1 {
+  font-size: 15px;
+  color: hsl(212, 23%, 69%);
+  letter-spacing: 3px;
 }
