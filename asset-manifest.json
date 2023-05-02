@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Article-preview-component/static/css/main.7205d59d.css",
+    "main.js": "/Article-preview-component/static/js/main.e1ebe840.js",
+    "static/js/787.e7d81ae2.chunk.js": "/Article-preview-component/static/js/787.e7d81ae2.chunk.js",
+    "static/media/drawers.jpg": "/Article-preview-component/static/media/drawers.631135b079e9f19bada8.jpg",
+    "index.html": "/Article-preview-component/index.html",
+    "main.7205d59d.css.map": "/Article-preview-component/static/css/main.7205d59d.css.map",
+    "main.e1ebe840.js.map": "/Article-preview-component/static/js/main.e1ebe840.js.map",
+    "787.e7d81ae2.chunk.js.map": "/Article-preview-component/static/js/787.e7d81ae2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7205d59d.css",
+    "static/js/main.e1ebe840.js"
+  ]
+}
